@@ -1,4 +1,4 @@
-package ru.mirea.trpp_second_3.entity;
+package ru.mirea.trppsecond3.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.opencsv.bean.CsvBindByName;
@@ -12,11 +12,11 @@ import lombok.ToString;
 @ToString
 public class Client {
 
-    /** Идентификатор. */
+    /** Йдентификатор. */
     @JsonProperty("id")
     @CsvBindByName(column = "id")
     private Long id;
-    /** Имя. */
+    /** Ймя. */
     @JsonProperty("firstName")
     @CsvBindByName(column = "first_name")
     private String firstName;
